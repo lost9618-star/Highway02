@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국어 교실: 자음과 모음 음운체계 마스터</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1>📚 국어 교실: 음운체계 연습 문제</h1>
+            <p class="subtitle">자음과 모음의 특성을 완벽하게 이해해 봅시다!</p>
+        </header>
+
+        <main>
+            <div id="quiz-box">
+                <div class="progress-bar">
+                    <div id="progress" style="width: 0%;"></div>
+                </div>
+                <div class="question-number">문제 <span id="current-num">1</span> / <span id="total-num">5</span></div>
+                <div id="question" class="question-text">여기에 문제가 표시됩니다.</div>
+                
+                <div id="options" class="options-container">
+                    <!-- 보기가 자바스크립트로 자동 생성됩니다 -->
+                </div>
+
+                <div id="result-message" class="result-message hidden"></div>
+            </div>
+
+            <div id="score-box" class="score-container hidden">
+                <h2>🎉 퀴즈 완료!</h2>
+                <p id="score-text">점수가 여기에 표시됩니다.</p>
+                <button id="restart-btn" onclick="restartQuiz()">다시 도전하기</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2026 국어 교실 - 음운체계 학습 페이지</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
